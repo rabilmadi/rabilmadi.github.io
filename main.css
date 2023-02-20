@@ -1,0 +1,120 @@
+html {
+    font-family: Roboto, sans-serif;
+    --primary-color: #2f80ed;
+    --secondary-color: #333333;
+    --bg-color: #ffffff;
+}
+
+html[data-theme='dark'] {
+    --primary-color: #2f80ed;
+    --secondary-color: #ffffff;
+    --bg-color: #202020;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+.madi{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.header{
+    display: flex;
+
+}
+.image{
+    margin-right: 50px;
+}
+
+* {
+    color: var(--secondary-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+
+section {
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.cv {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contacts {
+    margin-bottom: 2em;
+}
+
+.contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.contact__type {
+    min-width: 90px;
+}
+.education_name2{
+    font-weight: bold;
+}
+
+
+.education__date {
+    min-width: 185px;
+    margin: 20px 20px 20px 20px;
+
+
+}
+.js{
+    color: var(--secondary-color);
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 290px;
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 770px) {
+    .header{
+        width: 100px;
+    }
+    .education1{
+        width: 70%;
+    }
+    .Skills{
+        width: 30%;
+    }
+}
+@media (min-device-width: 768px) and (max-device-width: 1024px)  {
+    .header {
+        width: 200px;
+    }
+        .education1{
+            width: 70%;
+        }
+    .Skills{
+        width: 30%;
+    }
+}
+
+
+
